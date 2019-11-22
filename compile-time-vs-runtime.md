@@ -37,7 +37,7 @@ Notes:
 C++ supports *template metaprogramming*, (metaprogramming means "programming the programming language itself"). This executes
 some commands at compile-time, which *generates* code.
 
-```cplusplus
+```cpp
 
 template<typename T>
 class vector {
@@ -60,7 +60,7 @@ class vector {
 
 Any file that defines this, doesn't generate any compilable code (this doesn't generate any binary). But:
 
-```cplusplus
+```cpp
 
 vector<int> vec1;
 vector<std::string> vec2;
@@ -86,7 +86,7 @@ arr.get(0);
 
 In C++:
 
-```cplusplus
+```cpp
 vector<int> arr;
 // INVALID: A compile-time error because a template requires an argument
 // vector other;
