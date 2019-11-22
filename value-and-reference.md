@@ -6,7 +6,7 @@ The main power of Swift, C# and C++, the power to make a *Value Type*.
  
  # e.g.
  
- ```cplusplus
+ ```cpp
  class a_value_type {
      double a;
      double b;
@@ -18,7 +18,7 @@ The main power of Swift, C# and C++, the power to make a *Value Type*.
  [a 8 bytes][b 8 bytes][c 8 double]
  ```
  
- ```cplusplus
+ ```cpp
  class a_complex_value_type {
      double a;
      a_value_type b;
@@ -35,7 +35,7 @@ The main power of Swift, C# and C++, the power to make a *Value Type*.
  
  If we imagine using a reference type inside `a_complex_value_type`:
  
- ```cplusplus
+ ```cpp
  class a_complex_value_type {
      double a;
      a_value_type &b;
@@ -86,7 +86,7 @@ WHY???
 
 Imagine a thing happen like that:
 
-```cplusplus
+```cpp
 class a_value_type {
 public:
     double a;
@@ -95,7 +95,7 @@ public:
 };
 ```
 
-```cplusplus
+```cpp
 // Returns an object by reference
 a_value_type &return_a_reference() {
     a_value_type ret;
