@@ -12,7 +12,7 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
  
 ## C++ is not better than all of those, but:
  
- 1. There is a "deterministic GC" (called **RAII**, which stands for *Resource Acquistion Is Initialization*) instead of a "stop-the-world" GC (like Java, C#, GoLang, JS, etc...). This is safer than C's fully manual memory and resource management, and more efficent than Java, C#, etc... (it is also sometimes safer than Java, C#, etc... when handling external resources, like files).
+ 1. There is a "deterministic GC" (called **[RAII](https://en.cppreference.com/w/cpp/language/raii)**, which stands for *Resource Acquistion Is Initialization*) instead of a "stop-the-world" GC (like Java, C#, GoLang, JS, etc...). This is safer than C's fully manual memory and resource management, and more efficent than Java, C#, etc... (it is also sometimes safer than Java, C#, etc... when handling external resources, like files).
  2. Sometimes manual fine tuning is needed, this can't be done in other languages.
  3. There is no VM, so the total binary size would be smaller (in Java, you should count also the binary size of your JVM implementation itself).
  4. It is not owned by some company, so it is unlikely to move to propreitary at least for a long time.
@@ -27,7 +27,7 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
  - Starting from Java:
    * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * [Value types]()
-   * RAII (WIP)
+   * [RAII](https://en.cppreference.com/w/cpp/language/raii) (from the official documentation)
    * References and memory management (WIP)
    * Templates (WIP)
    * Functional Programming (WIP)
@@ -35,14 +35,14 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
  - Starting from JavaScript:
    * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * Static vs. dynamic types (WIP)
-   * RAII (WIP)
+   * [RAII](https://en.cppreference.com/w/cpp/language/raii) (from the official documentation)
    * [Value types]()
    * References and memory management (WIP)
    * Templates (WIP)
 
  - Starting from Functional Programming languages:
    * OOP concepts (Encapsulation, Polymorphism) *Inheritance wouldn't be covered because it is undesirable and error prone* (WIP)
-   * RAII (WIP)
+   * [RAII](https://en.cppreference.com/w/cpp/language/raii) (from the official documentation)
    * References and memory management (WIP)
 
 
