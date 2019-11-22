@@ -26,7 +26,7 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
  
  - Starting from Java:
    * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
-   * [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
+   * [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/value-and-reference.md)
    * [RAII](https://en.cppreference.com/w/cpp/language/raii) (from the official documentation)
    * References and memory management (WIP)
    * Templates (WIP)
@@ -36,7 +36,7 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
    * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * Static vs. dynamic types (WIP)
    * [RAII](https://en.cppreference.com/w/cpp/language/raii) (from the official documentation)
-   * [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
+   * [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/value-and-reference.md)
    * References and memory management (WIP)
    * Templates (WIP)
 
