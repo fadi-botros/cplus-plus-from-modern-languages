@@ -20,12 +20,12 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
 # Enough introduction, let's start:
 
  - Starting from C# (you already know value types (which is `struct` in C#, and you know template specialization)):
-   * [Compile-time vs. run-time]()
+   * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * References and memory management (WIP)
    * RAII (WIP)
  
  - Starting from Java:
-   * [Compile-time vs. run-time]()
+   * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * [Value types]()
    * RAII (WIP)
    * References and memory management (WIP)
@@ -33,7 +33,7 @@ You may be coming from Java, C#, JavaScript, Elixir, Erlang, Haskell, GoLang, et
    * Functional Programming (WIP)
    
  - Starting from JavaScript:
-   * [Compile-time vs. run-time]()
+   * [Compile-time vs. run-time](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md)
    * Static vs. dynamic types (WIP)
    * RAII (WIP)
    * [Value types]()
