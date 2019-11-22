@@ -103,7 +103,7 @@ Sometimes, you may need runtime types, what if for example you want a `std::vect
 than one type, for example a vector that may contain both strings and ints (unlikely to be needed in a real situation).
 
 This has a lot of solutions, one of them would be *wrapping your object in a type that allows runtime type*, like [`std::variant`](https://en.cppreference.com/w/cpp/utility/variant),
-or [std::any](https://en.cppreference.com/w/cpp/utility/any). More of this would be covered in the [Value types]() section.
+or [std::any](https://en.cppreference.com/w/cpp/utility/any). More of this would be covered in the [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md) section.
 
 # Example code:
 
@@ -115,7 +115,7 @@ it is not only for C++, but also for C, GoLang, Swift, Rust and other languages)
 
 So, what is the difference between `std::any` and `std::variant`??
 
-More would be covered in the [Value types]() section. But at least `std::variant` has known possible types, so its "size in memory"
+More would be covered in the [Value types](https://github.com/fadi-botros/cplus-plus-from-modern-languages/blob/master/compile-time-vs-runtime.md) section. But at least `std::variant` has known possible types, so its "size in memory"
 could be known, so it could be wrapped in a value type, which is faster. While `std::any` can contain anything, so no size is known.
 
 [Sizes](https://godbolt.org/z/4KWubZ)
